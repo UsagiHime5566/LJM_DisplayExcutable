@@ -23,8 +23,8 @@ Function ToggleHotspot()
 
     if ($tetheringManager.TetheringOperationalState -eq "On")
     {
-        "Stopping Hotspot"
-        Await ($tetheringManager.StopTetheringAsync()) ([Windows.Networking.NetworkOperators.NetworkOperatorTetheringOperationResult])
+        "Hotspot is already On!"
+        #Await ($tetheringManager.StopTetheringAsync()) ([Windows.Networking.NetworkOperators.NetworkOperatorTetheringOperationResult])
     }
     else
     {
