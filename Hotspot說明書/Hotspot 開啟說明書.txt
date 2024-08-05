@@ -1,0 +1,15 @@
+hotspot.ps1 需要使用PowerShell 功能
+
+1.
+編輯ps1檔案的編譯執行時, 需要執行script權限
+window鍵 + 輸入 power => 找到power shell => 以系統管理員執行
+輸入 Set-ExecutionPolicy RemoteSigned  =>  回覆 A
+
+以上來取得權限
+
+2.對著hotspot.ps1右鍵->編輯
+可以除錯檔案
+
+3.要能夠在無網路之下開啟hotspot
+需要安裝Radmin VPN -> 安裝完成不用開程式便取得一張虛擬網卡
+有虛擬網卡後就能夠隨時打開Hotspot
